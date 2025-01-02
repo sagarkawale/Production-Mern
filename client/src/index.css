@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family:'poppins',sans-serif; */
+
+/* navbar css */
+.navbar {
+  font-family: "poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px gray;
+  --webkit-box-shadow: 0px 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+.nav-link {
+  font-weight: 300 !important;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+}
+.footer {
+  text-align: center;
+  color: white;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover {
+  color: #ffefba;
+  /*border-bottom: 1px solid #ffefba ;
+*/
+  border-bottom: 1px solid #ffefba !important;
+}
+/*PAGE NOT FOUND  */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-heading {
+  font-weight: normal;
+}
+.pnf-title {
+  font-size: 100px;
+}
+.pnf-btn {
+  color: white;
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 8px 6px -6px black;
+  background-color: rgb(65, 96, 86);
+  font-size: 20px;
+}
+.pnf-btn:hover {
+  color: aqua;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color:black !important;
+
+
+}
